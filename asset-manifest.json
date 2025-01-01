@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ahmedNG-Portfolio/static/css/main.94f129d4.css",
-    "main.js": "/ahmedNG-Portfolio/static/js/main.3664b5c2.js",
+    "main.js": "/ahmedNG-Portfolio/static/js/main.9e4bc88f.js",
     "static/js/415.4d6acbeb.chunk.js": "/ahmedNG-Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/ahmedNG-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/screenshot_20.png": "/ahmedNG-Portfolio/static/media/screenshot_20.4c6f630e735d1cd5f0ea.png",
@@ -33,12 +33,12 @@
     "static/media/pre.svg": "/ahmedNG-Portfolio/static/media/pre.4001259d21f1d8041306.svg",
     "index.html": "/ahmedNG-Portfolio/index.html",
     "main.94f129d4.css.map": "/ahmedNG-Portfolio/static/css/main.94f129d4.css.map",
-    "main.3664b5c2.js.map": "/ahmedNG-Portfolio/static/js/main.3664b5c2.js.map",
+    "main.9e4bc88f.js.map": "/ahmedNG-Portfolio/static/js/main.9e4bc88f.js.map",
     "415.4d6acbeb.chunk.js.map": "/ahmedNG-Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/ahmedNG-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94f129d4.css",
-    "static/js/main.3664b5c2.js"
+    "static/js/main.9e4bc88f.js"
   ]
 }
