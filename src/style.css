@@ -499,7 +499,8 @@ button:focus {
 }
 
 .custom-card-img {
-  height: 220px;
+  height: 250px;
+  object-fit: cover;
 }
 
 .blog-card {
