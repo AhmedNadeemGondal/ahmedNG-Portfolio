@@ -11,7 +11,7 @@ function Particle() {
             value: 160,
             density: {
               enable: true,
-              value_area: 1500,
+              value_area: 1800,
             },
           },
           line_linked: {
@@ -19,11 +19,15 @@ function Particle() {
             opacity: 0.03,
           },
           move: {
-            direction: "right",
-            speed: 0.05,
+            enable: true,
+            direction: "top",
+            speed: 0.3,
+            random: false,
+            straight: true,
+            outMode: "out",
           },
           size: {
-            value: 1,
+            value: 1.5,
           },
           opacity: {
             anim: {
@@ -42,11 +46,11 @@ function Particle() {
           },
           modes: {
             push: {
-              particles_nb: 1,
+              particles_nb: 4,
             },
           },
         },
-        retina_detect: true,
+        retina_detect: false,
       }}
     />
   );
