@@ -19,7 +19,7 @@ function Projects() {
           {data.map(
             ({ id, imgPath, isBlog, title, desc, ghlink, demoLink }) => {
               return (
-                <Col md={4} className="project-card">
+                <Col md={4} className="project-card" key={id}>
                   <ProjectCard
                     imgPath={imgPath}
                     isBlog={isBlog}
@@ -27,7 +27,6 @@ function Projects() {
                     description={desc}
                     ghLink={ghlink}
                     demoLink={demoLink}
-                    key={id}
                   />
                 </Col>
               );

@@ -19,9 +19,9 @@ function Particle() {
             opacity: 0.03,
           },
           move: {
-            enable: true,
+            enable: false,
             direction: "top",
-            speed: 0.3,
+            speed: 0.05,
             random: false,
             straight: true,
             outMode: "out",
@@ -40,7 +40,7 @@ function Particle() {
         interactivity: {
           events: {
             onclick: {
-              enable: true,
+              enable: false,
               mode: "push",
             },
           },

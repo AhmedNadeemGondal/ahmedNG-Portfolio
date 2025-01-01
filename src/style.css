@@ -281,7 +281,12 @@ button:focus {
   color: whitesmoke;
   text-align: left;
 }
-
+@media (max-width: 768px) {
+  /* Adjust breakpoint as needed */
+  .home-content {
+    padding: 4rem 0 2rem !important;
+  }
+}
 .heading {
   font-size: 2.4em !important;
   padding-left: 50px !important;
