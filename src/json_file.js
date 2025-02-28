@@ -25,6 +25,17 @@ import screenshot_23 from "./Assets/Projects/screenshot_23.png";
 
 export const data = [
   {
+    id: 0,
+    imgPath: screenshot_0,
+    isBlog: null,
+    title: "Natours",
+    desc: "A RESTful API and server-rendered web app built with Node.js, Express, and Pug, featuring secure authentication, CRUD operations, and Stripe integration.",
+    ghlink:
+      "https://github.com/AhmedNadeemGondal/natours/tree/railway-deployment",
+    demoLink: "https://natours-production-e277.up.railway.app/",
+    tech: "nodejs",
+  },
+  {
     id: 1,
     imgPath: screenshot_1,
     isBlog: null,
