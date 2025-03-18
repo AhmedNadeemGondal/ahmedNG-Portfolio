@@ -10,14 +10,14 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          All <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are all the projects I have worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {data.map(
-            ({ id, imgPath, isBlog, title, desc, ghlink, demoLink }) => {
+            ({ id, imgPath, isBlog, title, desc, ghlink, demoLink, tech }) => {
               return (
                 <Col md={4} className="project-card" key={id}>
                   <ProjectCard
@@ -27,6 +27,7 @@ function Projects() {
                     description={desc}
                     ghLink={ghlink}
                     demoLink={demoLink}
+                    tech={tech}
                   />
                 </Col>
               );

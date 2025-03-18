@@ -43,7 +43,7 @@ export const data = [
     desc: "A modern React-based music player with responsive design, offering seamless play, pause, and skip functionalities. Styled using SASS for a sleek, user-friendly experience.",
     ghlink: "https://github.com/AhmedNadeemGondal/reactive-music-player",
     demoLink: "https://ahmednadeemgondal.github.io/reactive-music-player/",
-    tech: "react",
+    tech: "react-sass",
   },
   {
     id: 2,
@@ -53,7 +53,7 @@ export const data = [
     desc: "Discover detailed game data with Redux Toolkit for state management and Styled-Components for modular design. Powered by the RAWG API with a sleek, dynamic interface.",
     ghlink: "https://github.com/AhmedNadeemGondal/ignition",
     demoLink: "https://ignition-seven.vercel.app/",
-    tech: "react",
+    tech: "react-redux-styled",
   },
   {
     id: 3,
@@ -63,7 +63,7 @@ export const data = [
     desc: "A dynamic portfolio built with React, featuring smooth animations via Framer Motion and Styled-Components for polished design. Showcases routing and lazy-loaded content.",
     ghlink: "https://github.com/AhmedNadeemGondal/media-fusion-portfolio",
     demoLink: "https://ahmednadeemgondal.github.io/media-fusion-portfolio/",
-    tech: "react",
+    tech: "react-styled",
   },
   {
     id: 4,
@@ -226,7 +226,7 @@ export const data = [
     desc: "A React Native app for managing and viewing tickets, adding new ones, and customizing settings. Designed for seamless ticket management.",
     ghlink: "https://github.com/AhmedNadeemGondal/Ticketer",
     demoLink: null,
-    tech: "react",
+    tech: "react-native",
   },
   {
     id: 19,
@@ -236,7 +236,7 @@ export const data = [
     desc: "A React Native app for viewing, adding, and managing game reviews with detailed information. Ideal for gamers sharing feedback.",
     ghlink: "https://github.com/AhmedNadeemGondal/gameroom",
     demoLink: null,
-    tech: "react",
+    tech: "react-native",
   },
   {
     id: 20,
@@ -246,7 +246,7 @@ export const data = [
     desc: "A simple Todo app for adding, displaying, and deleting tasks, built with React Native. Perfect for managing daily tasks.",
     ghlink: "https://github.com/AhmedNadeemGondal/simple_todo_app",
     demoLink: null,
-    tech: "react",
+    tech: "react-native",
   },
   {
     id: 21,
