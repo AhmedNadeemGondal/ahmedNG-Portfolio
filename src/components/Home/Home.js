@@ -82,7 +82,6 @@ function Home() {
               )
             )}
         </Row>
-
         <div className="text-center">
           <Button
             variant="primary"
@@ -93,7 +92,6 @@ function Home() {
           </Button>
         </div>
       </Container>
-
       <Home2 />
     </section>
   );

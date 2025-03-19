@@ -30,7 +30,10 @@ function NavBar() {
         <Navbar.Brand as={Link} to="/" className="d-flex">
           <strong className="logo-self"> ANG.</strong>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav">
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          onClick={() => updateExpanded(!expand)}
+        >
           <span></span>
           <span></span>
           <span></span>

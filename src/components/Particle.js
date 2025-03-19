@@ -21,7 +21,7 @@ function Particle() {
           move: {
             enable: false,
             direction: "top",
-            speed: 0.05,
+            speed: 0.005,
             random: false,
             straight: true,
             outMode: "out",

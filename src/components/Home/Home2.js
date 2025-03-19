@@ -12,38 +12,32 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              FROM <span className="purple"> ENGINEERING </span> TO CODE
             </h1>
             <p className="home-about-body">
-              Transitioned from mechanical engineering to software development,
-              combining analytical precision with innovative coding solutions.
+              A mechanical engineer turned software developer, I build{" "}
+              <b className="purple">scalable applications</b> with a focus on
+              <b className="purple"> efficiency and optimization</b>.
               <br />
-              <br />I am fluent in{" "}
+              <br />
+              Fluent in
               <i>
-                <b className="purple">Javascript and Python. </b>
+                <b className="purple"> JavaScript and Python</b>
               </i>
+              , I specialize in
+              <b className="purple"> web technologies, product development </b>
+              and <b className="purple"> data analysis</b>.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">Data Analysis.</b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
+              Whether it's crafting
+              <b className="purple"> full-stack apps </b>
               with
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+                <b className="purple"> React.js and Node.js </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
-              </i>
+              , optimizing workflows, or designing
+              <b className="purple"> UI animations </b>, I keep things{" "}
+              <b className="purple"> simple, functional, and scalable </b>. 🚀
             </p>
           </Col>
           <Col md={4} className="myAvtar">
