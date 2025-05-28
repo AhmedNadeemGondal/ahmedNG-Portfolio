@@ -32,7 +32,7 @@ export const data = [
     desc: "A RESTful API and server-rendered web app built with Node.js, Express, and Pug, featuring secure authentication, CRUD operations, and Stripe integration.",
     ghlink:
       "https://github.com/AhmedNadeemGondal/natours/tree/railway-deployment",
-    demoLink: "https://natours-production-e277.up.railway.app/",
+    demoLink: "https://natours-rho-ten.vercel.app/",
     tech: "nodejs",
   },
   {
