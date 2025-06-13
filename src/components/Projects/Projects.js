@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import { data } from "../../json_file";
 
 function Projects() {
+  // console.log(data.length);
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -16,23 +17,34 @@ function Projects() {
           Here are all the projects I have worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {data.map(
-            ({ id, imgPath, isBlog, title, desc, ghlink, demoLink, tech }) => {
-              return (
-                <Col md={4} className="project-card" key={id}>
-                  <ProjectCard
-                    imgPath={imgPath}
-                    isBlog={isBlog}
-                    title={title}
-                    description={desc}
-                    ghLink={ghlink}
-                    demoLink={demoLink}
-                    tech={tech}
-                  />
-                </Col>
-              );
-            }
-          )}
+          {data
+            .sort((a, b) => b.id - a.id)
+            .map(
+              ({
+                id,
+                imgPath,
+                isBlog,
+                title,
+                desc,
+                ghlink,
+                demoLink,
+                tech,
+              }) => {
+                return (
+                  <Col md={4} className="project-card" key={id}>
+                    <ProjectCard
+                      imgPath={imgPath}
+                      isBlog={isBlog}
+                      title={title}
+                      description={desc}
+                      ghLink={ghlink}
+                      demoLink={demoLink}
+                      tech={tech}
+                    />
+                  </Col>
+                );
+              }
+            )}
         </Row>
       </Container>
     </Container>

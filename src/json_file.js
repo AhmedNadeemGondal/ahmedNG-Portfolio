@@ -1,32 +1,32 @@
-import screenshot_0 from "./Assets/Projects/screenshot_0.png";
-import screenshot_1 from "./Assets/Projects/screenshot_1.png";
-import screenshot_2 from "./Assets/Projects/screenshot_2.png";
-import screenshot_3 from "./Assets/Projects/screenshot_3.png";
-import screenshot_4 from "./Assets/Projects/screenshot_4.png";
-import screenshot_5 from "./Assets/Projects/screenshot_5.png";
-import screenshot_6 from "./Assets/Projects/screenshot_6.png";
-import screenshot_7 from "./Assets/Projects/screenshot_7.png";
-import screenshot_8 from "./Assets/Projects/screenshot_8.png";
-import screenshot_9 from "./Assets/Projects/screenshot_9.png";
-import screenshot_10 from "./Assets/Projects/screenshot_10.png";
-import screenshot_11 from "./Assets/Projects/screenshot_11.png";
-import screenshot_12 from "./Assets/Projects/screenshot_12.png";
-import screenshot_13 from "./Assets/Projects/screenshot_13.png";
-import screenshot_14 from "./Assets/Projects/screenshot_14.png";
-import screenshot_15 from "./Assets/Projects/screenshot_15.png";
-import screenshot_16 from "./Assets/Projects/screenshot_16.png";
-import screenshot_17 from "./Assets/Projects/screenshot_17.png";
-import screenshot_18 from "./Assets/Projects/screenshot_18.png";
-import screenshot_19 from "./Assets/Projects/screenshot_19.png";
+import screenshot_230 from "./Assets/Projects/screenshot_230.png";
+import screenshot_220 from "./Assets/Projects/screenshot_220.png";
+import screenshot_210 from "./Assets/Projects/screenshot_210.png";
+import screenshot_200 from "./Assets/Projects/screenshot_200.png";
+import screenshot_190 from "./Assets/Projects/screenshot_190.png";
+import screenshot_180 from "./Assets/Projects/screenshot_180.png";
+import screenshot_170 from "./Assets/Projects/screenshot_170.png";
+import screenshot_160 from "./Assets/Projects/screenshot_160.png";
+import screenshot_150 from "./Assets/Projects/screenshot_150.png";
+import screenshot_140 from "./Assets/Projects/screenshot_140.png";
+import screenshot_130 from "./Assets/Projects/screenshot_130.png";
+import screenshot_120 from "./Assets/Projects/screenshot_120.png";
+import screenshot_110 from "./Assets/Projects/screenshot_110.png";
+import screenshot_100 from "./Assets/Projects/screenshot_100.png";
+import screenshot_90 from "./Assets/Projects/screenshot_90.png";
+import screenshot_80 from "./Assets/Projects/screenshot_80.png";
+import screenshot_70 from "./Assets/Projects/screenshot_70.png";
+import screenshot_60 from "./Assets/Projects/screenshot_60.png";
+import screenshot_50 from "./Assets/Projects/screenshot_50.png";
+import screenshot_40 from "./Assets/Projects/screenshot_40.png";
+import screenshot_30 from "./Assets/Projects/screenshot_30.png";
 import screenshot_20 from "./Assets/Projects/screenshot_20.png";
-import screenshot_21 from "./Assets/Projects/screenshot_21.png";
-import screenshot_22 from "./Assets/Projects/screenshot_22.png";
-import screenshot_23 from "./Assets/Projects/screenshot_23.png";
+import screenshot_10 from "./Assets/Projects/screenshot_10.png";
+import screenshot_00 from "./Assets/Projects/screenshot_00.png";
 
 export const data = [
   {
-    id: 0,
-    imgPath: screenshot_0,
+    id: 230,
+    imgPath: screenshot_230,
     isBlog: null,
     title: "Natours",
     desc: "A RESTful API and server-rendered web app built with Node.js, Express, and Pug, featuring secure authentication, CRUD operations, and Stripe integration.",
@@ -36,8 +36,8 @@ export const data = [
     tech: "nodejs",
   },
   {
-    id: 1,
-    imgPath: screenshot_1,
+    id: 220,
+    imgPath: screenshot_220,
     isBlog: null,
     title: "Reactive Music Player",
     desc: "A modern React-based music player with responsive design, offering seamless play, pause, and skip functionalities. Styled using SASS for a sleek, user-friendly experience.",
@@ -46,8 +46,8 @@ export const data = [
     tech: "react-sass",
   },
   {
-    id: 2,
-    imgPath: screenshot_2,
+    id: 210,
+    imgPath: screenshot_210,
     isBlog: null,
     title: "Ignition",
     desc: "Discover detailed game data with Redux Toolkit for state management and Styled-Components for modular design. Powered by the RAWG API with a sleek, dynamic interface.",
@@ -56,8 +56,8 @@ export const data = [
     tech: "react-redux-styled",
   },
   {
-    id: 3,
-    imgPath: screenshot_3,
+    id: 200,
+    imgPath: screenshot_200,
     isBlog: null,
     title: "Media Fusion",
     desc: "A dynamic portfolio built with React, featuring smooth animations via Framer Motion and Styled-Components for polished design. Showcases routing and lazy-loaded content.",
@@ -66,8 +66,8 @@ export const data = [
     tech: "react-styled",
   },
   {
-    id: 4,
-    imgPath: screenshot_4,
+    id: 190,
+    imgPath: screenshot_190,
     isBlog: null,
     title: "Photon Gallery",
     desc: "An intuitive image search site powered by the Pexels API, featuring a responsive grid layout and smooth overlay effects. Securely deployed with Vercel for seamless exploration.",
@@ -76,8 +76,8 @@ export const data = [
     tech: "js",
   },
   {
-    id: 5,
-    imgPath: screenshot_5,
+    id: 180,
+    imgPath: screenshot_180,
     isBlog: null,
     title: "Lifestyle Portfolio",
     desc: "A visually captivating portfolio with smooth scroll animations powered by ScrollMagic and GSAP. Fully responsive with interactive design elements.",
@@ -87,8 +87,8 @@ export const data = [
     tech: "js",
   },
   {
-    id: 6,
-    imgPath: screenshot_6,
+    id: 170,
+    imgPath: screenshot_170,
     isBlog: null,
     title: "Dynamic Color Picker",
     desc: "A feature-rich tool for generating, customizing, and saving color palettes. Built with JavaScript and Chroma.js for seamless color manipulation.",
@@ -97,8 +97,8 @@ export const data = [
     tech: "js",
   },
   {
-    id: 7,
-    imgPath: screenshot_7,
+    id: 160,
+    imgPath: screenshot_160,
     isBlog: null,
     title: "Cool Todo List",
     desc: "An interactive task manager with dynamic filters and persistent storage. Built with JavaScript for a clean, user-friendly experience.",
@@ -107,8 +107,8 @@ export const data = [
     tech: "js",
   },
   {
-    id: 8,
-    imgPath: screenshot_8,
+    id: 150,
+    imgPath: screenshot_150,
     isBlog: null,
     title: "Palindrome Checker",
     desc: "A straightforward tool to check palindromes in real-time with a clean interface. Built with JavaScript and regex for input validation.",
@@ -119,8 +119,8 @@ export const data = [
     tech: "js",
   },
   {
-    id: 9,
-    imgPath: screenshot_9,
+    id: 140,
+    imgPath: screenshot_140,
     isBlog: null,
     title: "Roman Numeral Converter",
     desc: "A tool for converting numbers (1-3999) into Roman numerals with real-time conversion and error handling. Built with HTML, CSS, and JavaScript.",
@@ -131,8 +131,8 @@ export const data = [
     tech: "js",
   },
   {
-    id: 10,
-    imgPath: screenshot_10,
+    id: 130,
+    imgPath: screenshot_130,
     isBlog: null,
     title: "Phone Number Validator",
     desc: "A tool for validating U.S. phone numbers in multiple formats with real-time feedback. Built using HTML, CSS, and JavaScript for easy validation.",
@@ -143,8 +143,8 @@ export const data = [
     tech: "js",
   },
   {
-    id: 11,
-    imgPath: screenshot_11,
+    id: 120,
+    imgPath: screenshot_120,
     isBlog: null,
     title: "Cash Register",
     desc: "A dynamic cash register app that calculates change and updates drawer status. It displays transaction outcomes like OPEN, CLOSED, or INSUFFICIENT_FUNDS.",
@@ -155,8 +155,8 @@ export const data = [
     tech: "js",
   },
   {
-    id: 12,
-    imgPath: screenshot_12,
+    id: 110,
+    imgPath: screenshot_110,
     isBlog: null,
     title: "Pokemon Search App",
     desc: "Search for Pokemon by name and view detailed stats, types, and sprites, powered by the PokeAPI. Built with real-time data fetching for an engaging experience.",
@@ -167,8 +167,8 @@ export const data = [
     tech: "js",
   },
   {
-    id: 13,
-    imgPath: screenshot_13,
+    id: 100,
+    imgPath: screenshot_100,
     isBlog: null,
     title: "Survey Form",
     desc: "A responsive survey form with various input types for user-friendly data collection. Built with HTML and CSS as part of FreeCodeCamp's Responsive Web Design certification.",
@@ -177,8 +177,8 @@ export const data = [
     tech: "html-css",
   },
   {
-    id: 14,
-    imgPath: screenshot_14,
+    id: 90,
+    imgPath: screenshot_90,
     isBlog: null,
     title: "Tribute Page",
     desc: "A responsive tribute page with text, images, and links. Built with HTML and CSS for FreeCodeCamp's certification.",
@@ -187,8 +187,8 @@ export const data = [
     tech: "html-css",
   },
   {
-    id: 15,
-    imgPath: screenshot_15,
+    id: 80,
+    imgPath: screenshot_80,
     isBlog: null,
     title: "Technical Documentation",
     desc: "A responsive documentation page with sections for code examples and explanations, designed for clarity and ease of reading. Built with HTML and CSS as part of FreeCodeCamp's Responsive Web Design certification.",
@@ -197,8 +197,8 @@ export const data = [
     tech: "html-css",
   },
   {
-    id: 16,
-    imgPath: screenshot_16,
+    id: 70,
+    imgPath: screenshot_70,
     isBlog: null,
     title: "Product Landing Page",
     desc: "A responsive landing page showcasing a product with clear call-to-action buttons and organized sections. Built with HTML and CSS for FreeCodeCamp's certification.",
@@ -208,8 +208,8 @@ export const data = [
     tech: "html-css",
   },
   {
-    id: 17,
-    imgPath: screenshot_17,
+    id: 60,
+    imgPath: screenshot_60,
     isBlog: null,
     title: "Demo Portfolio",
     desc: "A responsive portfolio showcasing skills, projects, and contact information. Built with HTML and CSS for FreeCodeCamp's certification.",
@@ -219,8 +219,8 @@ export const data = [
     tech: "html-css",
   },
   {
-    id: 18,
-    imgPath: screenshot_18,
+    id: 50,
+    imgPath: screenshot_50,
     isBlog: "yes",
     title: "Ticketer",
     desc: "A React Native app for managing and viewing tickets, adding new ones, and customizing settings. Designed for seamless ticket management.",
@@ -229,8 +229,8 @@ export const data = [
     tech: "react-native",
   },
   {
-    id: 19,
-    imgPath: screenshot_19,
+    id: 40,
+    imgPath: screenshot_40,
     isBlog: "yes",
     title: "Game Room",
     desc: "A React Native app for viewing, adding, and managing game reviews with detailed information. Ideal for gamers sharing feedback.",
@@ -239,8 +239,8 @@ export const data = [
     tech: "react-native",
   },
   {
-    id: 20,
-    imgPath: screenshot_20,
+    id: 30,
+    imgPath: screenshot_30,
     isBlog: "yes",
     title: "Todo App",
     desc: "A simple Todo app for adding, displaying, and deleting tasks, built with React Native. Perfect for managing daily tasks.",
@@ -249,8 +249,8 @@ export const data = [
     tech: "react-native",
   },
   {
-    id: 21,
-    imgPath: screenshot_21,
+    id: 20,
+    imgPath: screenshot_20,
     isBlog: "yes",
     title: "Machine Learning",
     desc: "Completed the course covering supervised and unsupervised learning, model selection, tree-based methods, and advanced topics like SVMs and deep learning.",
@@ -260,8 +260,8 @@ export const data = [
     tech: "R",
   },
   {
-    id: 22,
-    imgPath: screenshot_22,
+    id: 10,
+    imgPath: screenshot_10,
     isBlog: "yes",
     title: "Data Analytics",
     desc: "A collection of Python projects demonstrating data analysis techniques, including statistical analysis, predictions, and data visualizations. Completed for FreeCodeCamp's certification.",
@@ -270,8 +270,8 @@ export const data = [
     tech: "python",
   },
   {
-    id: 23,
-    imgPath: screenshot_23,
+    id: 0,
+    imgPath: screenshot_00,
     isBlog: "yes",
     title: "Python",
     desc: "A series of Python projects showcasing proficiency in scientific computing, solving challenges with code and test cases. Completed for FreeCodeCamp's certification.",

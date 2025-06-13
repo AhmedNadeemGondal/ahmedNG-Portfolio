@@ -56,6 +56,7 @@ function Home() {
 
         <Row className="justify-content-center pb-3">
           {data
+            .sort((a, b) => b.id - a.id)
             .slice(0, 3)
             .map(
               ({
