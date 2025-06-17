@@ -20,11 +20,26 @@ import {
   SiRedux,
   SiSass,
   SiStyledcomponents,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiTypescript,
 } from "react-icons/si";
 
 function ProjectCards(props) {
   const renderIcons = (tech) => {
     switch (tech) {
+      case "nextjs":
+        return (
+          <>
+            <SiNextdotjs color="#FFFFFF" size={30} />{" "}
+            {/* Next.js is typically black */}
+            <FaReact color="#61DAFB" size={30} /> {/* React's iconic blue */}
+            <SiMongodb color="#47A248" size={30} /> {/* MongoDB's green */}
+            <SiTypescript color="#3178C6" size={30} /> {/* TypeScript's blue */}
+            <SiTailwindcss color="#06B6D4" size={30} />
+            {/* Tailwind CSS's teal/cyan */}
+          </>
+        );
       case "nodejs":
         return (
           <>

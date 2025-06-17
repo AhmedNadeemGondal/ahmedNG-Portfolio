@@ -1,3 +1,4 @@
+import screenshot_240 from "./Assets/Projects/screenshot_240.png";
 import screenshot_230 from "./Assets/Projects/screenshot_230.png";
 import screenshot_220 from "./Assets/Projects/screenshot_220.png";
 import screenshot_210 from "./Assets/Projects/screenshot_210.png";
@@ -24,6 +25,16 @@ import screenshot_10 from "./Assets/Projects/screenshot_10.png";
 import screenshot_00 from "./Assets/Projects/screenshot_00.png";
 
 export const data = [
+  {
+    id: 240,
+    imgPath: screenshot_240,
+    isBlog: null,
+    title: "Private Feedback Application",
+    desc: "A modern, full-stack web application built with Next.js and React, featuring secure authentication (NextAuth.js, bcrypt), MongoDB with Mongoose, robust API routes, comprehensive form handling, email integration, and basic AI capabilities.",
+    ghlink: "https://github.com/AhmedNadeemGondal/privatefeedbackapp", // Please replace this with your actual GitHub repository link
+    demoLink: "https://privatefeedbackapp-nextjs.vercel.app/",
+    tech: "nextjs",
+  },
   {
     id: 230,
     imgPath: screenshot_230,
