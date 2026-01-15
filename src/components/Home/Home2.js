@@ -12,33 +12,36 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              FROM <span className="purple"> ENGINEERING </span> TO CODE
+              FROM <span className="purple"> ENGINEERING </span> TO FULL-STACK
             </h1>
             <p className="home-about-body">
               A mechanical engineer turned software developer, I build{" "}
-              <b className="purple">scalable applications</b> with a focus on
-              <b className="purple"> efficiency and optimization</b>.
+              <b className="purple">production-grade applications</b> with a focus on
+              <b className="purple"> scalability, performance, and clean architecture</b>.
               <br />
               <br />
-              Fluent in
+              Experienced with
               <i>
-                <b className="purple"> JavaScript and Python</b>
+                <b className="purple"> .NET Core, Angular, JavaScript, and Python</b>
               </i>
-              , I specialize in
-              <b className="purple"> web technologies, product development </b>
-              and <b className="purple"> data analysis</b>.
+              , I aspire to specialize in
+              <b className="purple"> full-stack development</b>,
+              <b className="purple"> RESTful APIs</b>, and
+              <b className="purple"> cloud-ready systems</b>.
               <br />
               <br />
-              Whether it's crafting
-              <b className="purple"> full-stack apps </b>
-              with
+              I build and deploy
+              <b className="purple"> end-to-end applications </b>
+              using
               <i>
-                <b className="purple"> React.js and Node.js </b>
+                <b className="purple"> .NET Core, Angular, React, and Node.js </b>
               </i>
-              , optimizing workflows, or designing
-              <b className="purple"> UI animations </b>, I keep things{" "}
-              <b className="purple"> simple, functional, and scalable </b>. 🚀
+              , with hands-on experience in
+              <b className="purple"> Azure deployment and CI/CD</b>,
+              keeping solutions{" "}
+              <b className="purple"> robust, maintainable, and scalable </b>. 🚀
             </p>
+
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>

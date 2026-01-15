@@ -1,3 +1,4 @@
+import screenshot_250 from "./Assets/Projects/screenshot_250.png";
 import screenshot_240 from "./Assets/Projects/screenshot_240.png";
 import screenshot_230 from "./Assets/Projects/screenshot_230.png";
 import screenshot_220 from "./Assets/Projects/screenshot_220.png";
@@ -25,6 +26,16 @@ import screenshot_10 from "./Assets/Projects/screenshot_10.png";
 import screenshot_00 from "./Assets/Projects/screenshot_00.png";
 
 export const data = [
+  {
+    id: 250,
+    imgPath: screenshot_250,
+    isBlog: null,
+    title: "Dating App",
+    desc: "A full-stack social networking app built with ASP.NET Core 9 and Angular 20, featuring real-time SignalR messaging, JWT security, and Cloudinary-integrated photo management.",
+    ghlink: "https://github.com/AhmedNadeemGondal/DatingApp", // Please replace this with your actual GitHub repository link
+    demoLink: "https://datingappnetdemo.azurewebsites.net/",
+    tech: "dotnet-angular",
+  },
   {
     id: 240,
     imgPath: screenshot_240,

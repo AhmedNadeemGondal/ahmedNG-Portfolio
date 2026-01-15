@@ -23,11 +23,25 @@ import {
   SiNextdotjs,
   SiTailwindcss,
   SiTypescript,
+  SiDotnet,
+  SiAngular
 } from "react-icons/si";
 
 function ProjectCards(props) {
   const renderIcons = (tech) => {
     switch (tech) {
+      // Inside your renderIcons function switch statement:
+
+      case "dotnet-angular":
+        return (
+          <>
+            <SiDotnet color="#512BD4" size={30} /> {/* .NET Purple */}
+            <SiAngular color="#DD0031" size={30} /> {/* Angular Red */}
+            <SiTypescript color="#3178C6" size={30} /> {/* TypeScript Blue */}
+            <SiTailwindcss color="#06B6D4" size={30} />
+          </>
+        );
+
       case "nextjs":
         return (
           <>
