@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/ahmedNG-Portfolio/static/css/main.d248eb69.css",
-    "main.js": "/ahmedNG-Portfolio/static/js/main.ca5a7684.js",
-    "static/js/415.4d6acbeb.chunk.js": "/ahmedNG-Portfolio/static/js/415.4d6acbeb.chunk.js",
+    "main.css": "/ahmedNG-Portfolio/static/css/main.738f506a.css",
+    "main.js": "/ahmedNG-Portfolio/static/js/main.b38b903f.js",
     "static/js/787.1ed0c42c.chunk.js": "/ahmedNG-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/screenshot_30.png": "/ahmedNG-Portfolio/static/media/screenshot_30.4c6f630e735d1cd5f0ea.png",
     "static/media/screenshot_70.png": "/ahmedNG-Portfolio/static/media/screenshot_70.eba7811c084a289facf2.png",
@@ -21,7 +20,6 @@
     "static/media/screenshot_200.png": "/ahmedNG-Portfolio/static/media/screenshot_200.2819782ba32f0df3f429.png",
     "static/media/screenshot_50.png": "/ahmedNG-Portfolio/static/media/screenshot_50.7b70147b8167edf21bab.png",
     "static/media/screenshot_240.png": "/ahmedNG-Portfolio/static/media/screenshot_240.86211349f7639e604b08.png",
-    "static/media/home-main-4.svg": "/ahmedNG-Portfolio/static/media/home-main-4.37b1b637fb6c6991c915bcad49c3b3e9.svg",
     "static/media/screenshot_250.png": "/ahmedNG-Portfolio/static/media/screenshot_250.ad5c6dd314c19474a938.png",
     "static/media/screenshot_150.png": "/ahmedNG-Portfolio/static/media/screenshot_150.ffbdb005710419f5146b.png",
     "static/media/screenshot_120.png": "/ahmedNG-Portfolio/static/media/screenshot_120.f23193b96e3fdc3e422e.png",
@@ -32,15 +30,13 @@
     "static/media/screenshot_140.png": "/ahmedNG-Portfolio/static/media/screenshot_140.6d6c48e9b6821f24f299.png",
     "static/media/screenshot_130.png": "/ahmedNG-Portfolio/static/media/screenshot_130.9562cfafdcd110a48dc8.png",
     "static/media/avatar.svg": "/ahmedNG-Portfolio/static/media/avatar.e1ffffe31a439f4e0b66f90437c41f75.svg",
-    "static/media/pre.svg": "/ahmedNG-Portfolio/static/media/pre.4001259d21f1d8041306.svg",
     "index.html": "/ahmedNG-Portfolio/index.html",
-    "main.d248eb69.css.map": "/ahmedNG-Portfolio/static/css/main.d248eb69.css.map",
-    "main.ca5a7684.js.map": "/ahmedNG-Portfolio/static/js/main.ca5a7684.js.map",
-    "415.4d6acbeb.chunk.js.map": "/ahmedNG-Portfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "main.738f506a.css.map": "/ahmedNG-Portfolio/static/css/main.738f506a.css.map",
+    "main.b38b903f.js.map": "/ahmedNG-Portfolio/static/js/main.b38b903f.js.map",
     "787.1ed0c42c.chunk.js.map": "/ahmedNG-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d248eb69.css",
-    "static/js/main.ca5a7684.js"
+    "static/css/main.738f506a.css",
+    "static/js/main.b38b903f.js"
   ]
 }
