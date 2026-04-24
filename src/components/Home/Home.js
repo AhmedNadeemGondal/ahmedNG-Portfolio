@@ -13,16 +13,12 @@ function Home() {
     <section>
       <Container fluid className="project-section">
         <Container className="home-content">
-          {/* <Row> */}
-          <h1 className="heading">Hi There!{" "}</h1>
+          <h1 className="heading">Hi There!</h1>
           <h1 className="heading-name">
             I'M <strong className="main-name">AHMED NADEEM</strong>
           </h1>
-          {/* </Row> */}
+          <h3 className="heading-name">Here are my recent projects</h3>
         </Container>
-        <p style={{ color: "white", alignItems: "left" }}>
-          Here are some recent projects I have worked on.
-        </p>
         <Row className="justify-content-center pb-3">
           {data
             .sort((a, b) => b.id - a.id)
