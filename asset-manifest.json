@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ahmedNG-Portfolio/static/css/main.bce75be9.css",
+    "main.css": "/ahmedNG-Portfolio/static/css/main.de23b6c8.css",
     "main.js": "/ahmedNG-Portfolio/static/js/main.97ba69e6.js",
     "static/media/screenshot_30.png": "/ahmedNG-Portfolio/static/media/screenshot_30.4c6f630e735d1cd5f0ea.png",
     "static/media/screenshot_70.png": "/ahmedNG-Portfolio/static/media/screenshot_70.eba7811c084a289facf2.png",
@@ -29,11 +29,11 @@
     "static/media/screenshot_140.png": "/ahmedNG-Portfolio/static/media/screenshot_140.6d6c48e9b6821f24f299.png",
     "static/media/screenshot_130.png": "/ahmedNG-Portfolio/static/media/screenshot_130.9562cfafdcd110a48dc8.png",
     "index.html": "/ahmedNG-Portfolio/index.html",
-    "main.bce75be9.css.map": "/ahmedNG-Portfolio/static/css/main.bce75be9.css.map",
+    "main.de23b6c8.css.map": "/ahmedNG-Portfolio/static/css/main.de23b6c8.css.map",
     "main.97ba69e6.js.map": "/ahmedNG-Portfolio/static/js/main.97ba69e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.bce75be9.css",
+    "static/css/main.de23b6c8.css",
     "static/js/main.97ba69e6.js"
   ]
 }
