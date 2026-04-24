@@ -1,14 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 import { data } from "../../json_file";
 
 function Projects() {
   // console.log(data.length);
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Container>
         <h1 className="project-heading">
           All <strong className="purple">Projects </strong>
