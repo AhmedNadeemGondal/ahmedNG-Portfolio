@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/ahmedNG-Portfolio/static/css/main.738f506a.css",
-    "main.js": "/ahmedNG-Portfolio/static/js/main.b38b903f.js",
-    "static/js/787.1ed0c42c.chunk.js": "/ahmedNG-Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/ahmedNG-Portfolio/static/css/main.bce75be9.css",
+    "main.js": "/ahmedNG-Portfolio/static/js/main.97ba69e6.js",
     "static/media/screenshot_30.png": "/ahmedNG-Portfolio/static/media/screenshot_30.4c6f630e735d1cd5f0ea.png",
     "static/media/screenshot_70.png": "/ahmedNG-Portfolio/static/media/screenshot_70.eba7811c084a289facf2.png",
     "static/media/screenshot_190.png": "/ahmedNG-Portfolio/static/media/screenshot_190.b729b9680a745a9796c8.png",
@@ -29,14 +28,12 @@
     "static/media/screenshot_60.png": "/ahmedNG-Portfolio/static/media/screenshot_60.23ce59a9ab8749c7432f.png",
     "static/media/screenshot_140.png": "/ahmedNG-Portfolio/static/media/screenshot_140.6d6c48e9b6821f24f299.png",
     "static/media/screenshot_130.png": "/ahmedNG-Portfolio/static/media/screenshot_130.9562cfafdcd110a48dc8.png",
-    "static/media/avatar.svg": "/ahmedNG-Portfolio/static/media/avatar.e1ffffe31a439f4e0b66f90437c41f75.svg",
     "index.html": "/ahmedNG-Portfolio/index.html",
-    "main.738f506a.css.map": "/ahmedNG-Portfolio/static/css/main.738f506a.css.map",
-    "main.b38b903f.js.map": "/ahmedNG-Portfolio/static/js/main.b38b903f.js.map",
-    "787.1ed0c42c.chunk.js.map": "/ahmedNG-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.bce75be9.css.map": "/ahmedNG-Portfolio/static/css/main.bce75be9.css.map",
+    "main.97ba69e6.js.map": "/ahmedNG-Portfolio/static/js/main.97ba69e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.738f506a.css",
-    "static/js/main.b38b903f.js"
+    "static/css/main.bce75be9.css",
+    "static/js/main.97ba69e6.js"
   ]
 }
