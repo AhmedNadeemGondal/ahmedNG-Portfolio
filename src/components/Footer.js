@@ -16,7 +16,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://github.com/AhmedNadeemGondal"
-                style={{ color: "white" }}
+                style={{ color: "var(--border-color)" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -26,7 +26,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://wa.me/03335581734"
-                style={{ color: "white" }}
+                style={{ color: "var(--border-color)" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -36,7 +36,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/ahmed-nadeem-7a30a4111/"
-                style={{ color: "white" }}
+                style={{ color: "var(--border-color)" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -46,7 +46,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="mailto:ahmednadeemgondal92@gmail.com"
-                style={{ color: "white" }}
+                style={{ color: "var(--border-color)" }}
               >
                 <AiOutlineMail />
               </a>

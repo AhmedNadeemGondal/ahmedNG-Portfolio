@@ -45,7 +45,7 @@ function ProjectCards(props) {
       case "nextjs":
         return (
           <>
-            <SiNextdotjs color="#FFFFFF" size={30} />{" "}
+            <SiNextdotjs color="var(--border-color)" size={30} />{" "}
             {/* Next.js is typically black */}
             <FaReact color="#61DAFB" size={30} /> {/* React's iconic blue */}
             <SiMongodb color="#47A248" size={30} /> {/* MongoDB's green */}
@@ -59,7 +59,7 @@ function ProjectCards(props) {
           <>
             <FaNodeJs color="#68A063" size={30} />
             <SiMongodb color="#4DB33D" size={30} />
-            <SiExpress color="#FFFFFF" size={30} />
+            <SiExpress color="var(--border-color)" size={30} />
             <SiPug color="#A86454" size={30} />
           </>
         );

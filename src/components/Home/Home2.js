@@ -9,34 +9,31 @@ function Home2() {
         <Row>
           <div className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              FROM <span className="purple"> ENGINEERING </span> TO FULL-STACK
+              STRUCTURAL <span className="purple"> ANALYSIS </span> & DEVELOPMENT
             </h1>
-            <p className="home-about-body">
-              A mechanical engineer turned software developer, I build{" "}
-              <b className="purple">production-grade applications</b> with a focus on
-              <b className="purple"> scalability, performance, and clean architecture</b>.
+            <p className="home-about-body" style={{ fontFamily: "monospace" }}>
+              A multi-disciplinary engineer turned software developer. My foundation is built on heavy industry computation and precision problem solving.
               <br />
               <br />
-              Experienced with
-              <i>
-                <b className="purple"> .NET Core, Angular, JavaScript, and Python</b>
-              </i>
-              , I aspire to specialize in
-              <b className="purple"> full-stack development</b>,
-              <b className="purple"> RESTful APIs</b>, and
-              <b className="purple"> cloud-ready systems</b>.
+              <span className="purple" style={{ fontWeight: "700" }}>[ EXPERIENCE.MATRIX ]</span>
               <br />
               <br />
-              I build and deploy
-              <b className="purple"> end-to-end applications </b>
+              &raquo; <b>Aerospace FEA</b> // 3 Years - Finite Element Analysis for critical flight structures.<br />
+              &raquo; <b>Civil Infrastructure</b> // 3+ Years - Data analyst structuring massive infrastructural metrics.<br />
+              &raquo; <b>Oil & Gas Engineering</b> // 2 Years - Process optimization & structural integrity.<br />
+              &raquo; <b>MEP Design</b> // 1 Year - Mechanical, electrical, and plumbing architecture.<br />
+              <br />
+              <br />
+              <span className="purple" style={{ fontWeight: "700" }}>[ CURRENT.TRAJECTORY ]</span>
+              <br />
+              <br />
+              I now apply this same technical rigor to engineer and deploy
+              <b className="purple"> full-stack applications </b>
               using
               <i>
                 <b className="purple"> .NET Core, Angular, React, and Node.js </b>
-              </i>
-              , with hands-on experience in
-              <b className="purple"> Azure deployment and CI/CD</b>,
-              keeping solutions{" "}
-              <b className="purple"> robust, maintainable, and scalable </b>. 🚀
+              </i>. I treat software architecture exactly like physical infrastructure: keeping solutions
+              <b className="purple"> robust, exact, and highly scalable</b>.
             </p>
 
           </div>

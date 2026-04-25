@@ -13,11 +13,15 @@ function Home() {
     <section>
       <Container fluid className="project-section">
         <Container className="home-content">
-          <h1 className="heading">Hi There!</h1>
-          <h1 className="heading-name">
-            I'M <strong className="main-name">AHMED NADEEM</strong>
+          <h1 className="heading" style={{ letterSpacing: "2px" }}>
+            [ SYSTEM.ONLINE ]
           </h1>
-          <h3 className="heading-name">Here are my recent projects</h3>
+          <h1 className="heading-name" style={{ textTransform: "uppercase" }}>
+            ENGINEER: <strong className="main-name">AHMED NADEEM</strong>
+          </h1>
+          <h3 className="heading-name" style={{ marginTop: "20px" }}>
+            // RECENT DEPLOYMENTS & ARCHITECTURES
+          </h3>
         </Container>
         <Row className="justify-content-center pb-3">
           {data
@@ -54,7 +58,7 @@ function Home() {
             style={{ padding: "10px", fontSize: "18px" }}
             onClick={() => navigate("/project")}
           >
-            <AiOutlineFundProjectionScreen /> &nbsp;All Projects
+            <AiOutlineFundProjectionScreen /> &nbsp;[ VIEW ALL SCHEMATICS ]
           </Button>
         </div>
       </Container>

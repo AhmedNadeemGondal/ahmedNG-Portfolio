@@ -11,7 +11,7 @@ function Projects() {
         <h1 className="project-heading">
           All <strong className="purple">Projects </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <p style={{ color: "var(--border-color)" }}>
           Here are all the projects I have worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
