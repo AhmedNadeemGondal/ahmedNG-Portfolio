@@ -11,56 +11,58 @@ function Home() {
   const navigate = useNavigate();
   return (
     <section>
-      <Container fluid className="project-section">
+      <Container fluid className="home-section">
         <Container className="home-content">
-          <h1 className="heading" style={{ letterSpacing: "2px" }}>
+          <h1 className="heading">
             [ SYSTEM.ONLINE ]
           </h1>
-          <h1 className="heading-name" style={{ textTransform: "uppercase" }}>
+          <h1 className="heading-name">
             ENGINEER: <strong className="main-name">AHMED NADEEM</strong>
           </h1>
-          <h3 className="heading-name" style={{ marginTop: "20px" }}>
+          <h3 className="heading-name mt-4">
             // RECENT DEPLOYMENTS & ARCHITECTURES
           </h3>
         </Container>
-        <Row className="justify-content-center pb-3">
-          {data
-            .sort((a, b) => b.id - a.id)
-            .slice(0, 3)
-            .map(
-              ({
-                id,
-                imgPath,
-                isBlog,
-                title,
-                desc,
-                ghlink,
-                demoLink,
-                tech,
-              }) => (
-                <Col md={3} className="project-card" key={id}>
-                  <ProjectCard
-                    imgPath={imgPath}
-                    isBlog={isBlog}
-                    title={title}
-                    description={desc}
-                    ghLink={ghlink}
-                    demoLink={demoLink}
-                    tech={tech}
-                  />
-                </Col>
-              )
-            )}
-        </Row>
-        <div className="text-center">
+        <Container>
+          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            {data
+              .sort((a, b) => b.id - a.id)
+              .slice(0, 3)
+              .map(
+                ({
+                  id,
+                  imgPath,
+                  isBlog,
+                  title,
+                  desc,
+                  ghlink,
+                  demoLink,
+                  tech,
+                }) => (
+                  <Col md={4} className="project-card" key={id}>
+                    <ProjectCard
+                      imgPath={imgPath}
+                      isBlog={isBlog}
+                      title={title}
+                      description={desc}
+                      ghLink={ghlink}
+                      demoLink={demoLink}
+                      tech={tech}
+                    />
+                  </Col>
+                )
+              )}
+          </Row>
+        </Container>
+        <Container className="text-center">
           <Button
             variant="primary"
-            style={{ padding: "10px", fontSize: "18px" }}
+            className="px-4 py-2 fs-5"
             onClick={() => navigate("/project")}
           >
             <AiOutlineFundProjectionScreen /> &nbsp;[ VIEW ALL SCHEMATICS ]
           </Button>
-        </div>
+        </Container>
       </Container>
       <Home2 />
     </section>

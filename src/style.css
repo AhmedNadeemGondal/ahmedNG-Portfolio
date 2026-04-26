@@ -227,7 +227,6 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
   background-color: transparent !important;
   background-image: none !important;
   background-position: top center;
@@ -249,20 +248,22 @@ button:focus {
 }
 
 .heading {
-  font-size: 2.2em !important;
+  font-size: 1.2em !important;
+  letter-spacing: 2px;
   padding-left: 20px !important;
   color: var(--border-color) !important;
 }
 
 .heading-name {
   font-size: 2.2em !important;
+  text-transform: uppercase;
   padding-left: 20px !important;
   color: var(--border-color) !important;
 }
 
 @media (max-width: 767px) {
   .heading {
-    font-size: 1.4em !important;
+    font-size: 0.8em !important;
     padding-left: 10px !important;
   }
   .heading-name {
@@ -428,6 +429,7 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
+  padding-top: 120px !important;
   padding-bottom: 30px !important;
   background-color: transparent !important;
 }

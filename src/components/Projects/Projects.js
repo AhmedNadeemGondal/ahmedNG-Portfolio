@@ -8,11 +8,11 @@ function Projects() {
   return (
     <Container fluid className="project-section">
       <Container>
-        <h1 className="project-heading">
-          All <strong className="purple">Projects </strong>
+        <h1 className="heading-name" style={{ textTransform: "uppercase", letterSpacing: "1px" }}>
+          [ <strong className="purple">SCHEMATIC.ARCHIVE </strong> ]
         </h1>
-        <p style={{ color: "var(--border-color)" }}>
-          Here are all the projects I have worked on.
+        <p style={{ color: "var(--border-color)", fontFamily: "monospace", marginTop: "10px" }}>
+          // INDEX OF DEPLOYED SYSTEMS AND STRUCTURAL DESIGNS
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {data

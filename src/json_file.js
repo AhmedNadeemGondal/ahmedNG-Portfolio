@@ -30,8 +30,8 @@ export const data = [
     id: 250,
     imgPath: screenshot_250,
     isBlog: null,
-    title: "Dating App",
-    desc: "A full-stack social networking app built with ASP.NET Core 9 and Angular 20, featuring real-time SignalR messaging, JWT security, and Cloudinary-integrated photo management.",
+    title: "Enterprise-Grade Real-Time Social Architecture",
+    desc: "A decoupled ASP.NET 10 & Angular system featuring low-latency SignalR messaging and JWT security. Engineered with optimized EF Core queries and Cloudinary binary stream management for high-concurrency data integrity.",
     ghlink: "https://github.com/AhmedNadeemGondal/DatingApp", // Please replace this with your actual GitHub repository link
     demoLink: "https://datingappnetdemo.azurewebsites.net/",
     tech: "dotnet-angular",
@@ -40,8 +40,8 @@ export const data = [
     id: 240,
     imgPath: screenshot_240,
     isBlog: null,
-    title: "Private Feedback Application",
-    desc: "A modern, full-stack web application built with Next.js and React, featuring secure authentication (NextAuth.js, bcrypt), MongoDB with Mongoose, robust API routes, comprehensive form handling, email integration, and basic AI capabilities.",
+    title: "Secure Feedback Ecosystem & API Infrastructure",
+    desc: "A Next.js 15 platform utilizing SSR for performance and NextAuth.js for defensive security. Implements robust Mongoose schema modeling and secure API Route Handlers for scalable, server-side resource management.",
     ghlink: "https://github.com/AhmedNadeemGondal/privatefeedbackapp", // Please replace this with your actual GitHub repository link
     demoLink: "https://privatefeedbackapp-nextjs.vercel.app/",
     tech: "nextjs",
@@ -50,8 +50,8 @@ export const data = [
     id: 230,
     imgPath: screenshot_230,
     isBlog: null,
-    title: "Natours",
-    desc: "A RESTful API and server-rendered web app built with Node.js, Express, and Pug, featuring secure authentication, CRUD operations, and Stripe integration.",
+    title: "RESTful API Engine & Server-Side Manager",
+    desc: "A performance-tuned Node.js & Express backend adhering to strict RESTful constraints. Features global error-handling middleware, Stripe transactional integrity, and Pug rendering for high-availability server-side logic.",
     ghlink:
       "https://github.com/AhmedNadeemGondal/natours/tree/railway-deployment",
     demoLink: "https://natours-rho-ten.vercel.app/",
