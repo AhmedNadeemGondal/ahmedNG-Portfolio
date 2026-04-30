@@ -54,13 +54,15 @@ function Home() {
               )}
           </Row>
         </Container>
-        <Container className="text-center">
+        <Container className="text-center px-2">
           <Button
             variant="primary"
-            className="px-4 py-2 fs-5"
+            /* Added text-nowrap and used a smaller font size for mobile */
+            className="px-3 py-2 fs-6 fs-sm-5 text-nowrap d-inline-flex align-items-center justify-content-center"
             onClick={() => navigate("/project")}
           >
-            <AiOutlineFundProjectionScreen /> &nbsp;[ VIEW ALL SCHEMATICS ]
+            <AiOutlineFundProjectionScreen className="me-2" />
+            <span>[ VIEW ALL SCHEMATICS ]</span>
           </Button>
         </Container>
       </Container>

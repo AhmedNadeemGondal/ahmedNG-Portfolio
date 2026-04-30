@@ -33,7 +33,7 @@ export const data = [
     title: "Enterprise-Grade Real-Time Social Architecture",
     desc: "A decoupled ASP.NET 10 & Angular system featuring low-latency SignalR messaging and JWT security. Engineered with optimized EF Core queries and Cloudinary binary stream management for high-concurrency data integrity.",
     ghlink: "https://github.com/AhmedNadeemGondal/DatingApp", // Please replace this with your actual GitHub repository link
-    demoLink: "https://datingappnetdemo.azurewebsites.net/",
+    demoLink: "https://www.socialarchitecture.somee.com",
     tech: "dotnet-angular",
   },
   {
